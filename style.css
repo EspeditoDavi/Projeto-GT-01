@@ -1,0 +1,46 @@
+* {
+    background: #06090f;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight
+}   
+
+
+
+
+.menu {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 29px; 
+   
+}
+
+.menu h1 {
+    color: #00a3ff;
+}
+
+.menu ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 340px;
+
+}
+
+.busca {
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    background: #151b26;
+    padding: 6px;
+    margin-right: 99px;
+    
+}
+.busca:hover input {
+    color: blue;
+}
