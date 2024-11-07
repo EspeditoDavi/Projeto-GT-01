@@ -41,6 +41,15 @@
     margin-right: 99px;
     
 }
-.busca:hover input {
-    color: blue;
+.navegacao {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
 }
+
+.Catalogo {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
