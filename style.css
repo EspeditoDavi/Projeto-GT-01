@@ -2,7 +2,9 @@
     background: #06090f;
     font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight
+  font-weight: weight;
+  margin: auto;
+  text-align: center;
 }   
 
 
@@ -13,13 +15,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 29px; 
+    font-size: 29px;
+    margin-bottom: 45px;
    
 }
 
 .menu h1 {
     color: #00a3ff;
-    margin-left: 30px;
+    margin-left: 16px;
+    
 }
 
 .menu ul {
@@ -29,13 +33,14 @@
     gap: 30px;
     font-size: 25px;
     align-items: center;
-    margin-left: 340px;
+    margin-left: 280px;
 }
 .menu li a {
     text-decoration: none;      
     list-style: none;
     color: white;
-    margin-right: 10px;
+    margin-right: 30px;
+    
 }
 .menu:hover li a {
         cursor: default;
@@ -54,6 +59,7 @@
     list-style: none;
     gap: 23px;
     margin: 0%;
+    margin-right: 40px;
 }
 .Catalogo {
     font-size: 20px;
@@ -62,4 +68,19 @@
     border-radius: 50%;
     padding: 20px;
 }
+.container-nav {
+        margin-left: 40px;
+}
+.container-nav h1 {
+    color: white;
+    font-weight: 300;
+    margin-top: 130px;
+}
+.container-nav p {
+    color: #7d7d7d;
+}
 
+.hero {
+    text-align: center; 
+    
+}
